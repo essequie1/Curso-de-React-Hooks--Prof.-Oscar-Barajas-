@@ -1,10 +1,6 @@
 import React from 'react';
 import '../styles/components/App.scss';
 
-function App() {
-  <div>
-    <h1 className="title">Hola mundo</h1>
-  </div>;
-}
+const App = () => <div>App</div>;
 
 export default App;
