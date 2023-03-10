@@ -1,0 +1,21 @@
+.header {
+  background-color: #0e0e0e;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  width: 100svw;
+  &__title {
+    font-size: 2rem;
+    &__link {
+      text-decoration: none;
+    }
+  }
+  &__checkout {
+    font-size: 0.75rem;
+    &__link {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,4 +1,26 @@
-h1 {
-  font-size: 8rem;
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+  color: white;
+}
+
+#app {
+  width: 100svw;
+  min-height: 100svh;
+  background-color: #121212;
+}
+
+section {
+  width: 100svw;
+  height: calc(100svh - 10rem);
+  padding: 60px;
+  background-color: #121212;
+  display: grid;
+  place-items: center;
+  gap: 40px;
 }
